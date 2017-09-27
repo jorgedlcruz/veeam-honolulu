@@ -46,7 +46,7 @@ This project is a quick introduction of the posibilities of the new Microsoft Pr
 * So next step is to create the folder veeam.sme.vac-manager inside the modules folder
 * Download the index.html and place it inside the veeam.sme.vac-manager folder
 * Last but not least, restart the service called Project Honolulu 
-![alt tag](https://github.com/jorgedlcruz/veeam-honolulu/blob/master/veeamhonolulu.png?raw=true)
+![alt tag](https://raw.githubusercontent.com/jorgedlcruz/veeam-honolulu/master/veeamhonolulu.png)
 
 ----------
 
