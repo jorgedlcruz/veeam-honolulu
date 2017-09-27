@@ -1,7 +1,8 @@
 How to create a HTML Extension on Microsoft Project Honolulu
 ===================
 
-This project is a quick introduction of the posibilities of the new Microsoft Project Honolulu. We will create a new simple HTML module and add it into the Project.
+This project is a quick introduction of the posibilities of the new Microsoft Project Honolulu. We will create a new simple HTML module and add it into the Project. Once finished you might have something similar to this example inspired in Veeam:
+![alt tag](https://raw.githubusercontent.com/jorgedlcruz/veeam-honolulu/master/veeamhonolulu2.png)
 
 ----------
 
