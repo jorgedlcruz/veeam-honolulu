@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VAC</title>
+    <script>
+        function init() {
+            window.addEventListener('message', receiveMessage, false);
+        }
+
+        function receiveMessage(event) {
+            if (event.data.signature !== 'version 0.0.0') {
+                return;
+            }
+
+            var response = {
+                command: event.data.command,
+                srcName: event.data.destName,
+                srcSubName: event.data.destSubName,
+                sequence: event.data.sequence,
+                destName: event.data.srcName,
+                destSubName: event.data.srcSubName,
+                version: event.data.version,
+                signature: event.data.signature,
+                srcDepth: 1,
+                type: 1,
+                data: { state: 0 }
+            };
+
+            event.source.postMessage(response, event.origin);
+        }
+    </script>
+</head>
+
+<body onload="init();">
+    <div class="tool-header-box">
+        <h4 class="tool-header">Coming Soon</h4>
+      </div>
+    <img src="https://img.veeam.com/newsroom/graphics/2017/Veeam_logo_2017_green-500.png">
+</body>
+</html>
